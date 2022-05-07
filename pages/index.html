@@ -16,13 +16,45 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/css/indexStyles.css" />
+    <link rel="stylesheet" href="/css/normalize.css" />
   </head>
   <body>
     <!-- ESTA ES LA PARTE DE EMERZON -->
     <nav class="navbar">
-      <i class="fa-brands fa-facebook icon"></i>
+      <div class="navbar__container">
+        <span class="navbar__container-logo">
+          <img
+            class="navbar__logo"
+            src="/images/Starbucks-logo.png"
+            alt="Starbucks-logo"
+          />
+        </span>
+        <div class="navbar__search-container">
+          <input class="navbar__search" type="text" placeholder="Busqueda..." />
+          <i class="fa-solid fa-magnifying-glass navbar__search-icon"></i>
+        </div>
+        <ul class="navbar__links">
+          <li>
+            <a class="navbar__link" href="#">Bebidas</a>
+          </li>
+          <li>
+            <a class="navbar__link" href="#">Alimentos</a>
+          </li>
+          <li>
+            <a class="navbar__link" href="#">Packs y Boxes</a>
+          </li>
+          <li>
+            <a class="navbar__link" href="#">Merch y café en grano</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-    <section class="hero"></section>
+    <section class="hero">
+      <img class="hero__image" src="/images/image2.png" alt="hero image" />
+      <h2 class="hero__title hero__title--1">BIENVENIDOS</h2>
+      <h2 class="hero__title hero__title--2">A</h2>
+      <h2 class="hero__title hero__title--3">STARBUCKMANIA</h2>
+    </section>
 
     <!-- ESTA ES LA PARTE DE GLADYS -->
     <section class="pack1"></section>
