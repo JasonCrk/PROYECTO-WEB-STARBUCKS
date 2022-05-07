@@ -20,6 +20,7 @@
   align-items: center;
   background-color: white;
   box-shadow: 0 0 10px rgba(126, 126, 126, 0.363);
+  z-index: 100;
 }
 
 .navbar__container {
@@ -91,6 +92,42 @@
 .hero {
   padding-top: 80px;
   background-color: #d4e9e2;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hero__image {
+  width: 700px;
+  animation-name: imageAnimation;
+  animation-duration: 1.2s;
+}
+
+.hero__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  color: white;
+  position: absolute;
+  animation-duration: 1.8s;
+  text-shadow: 0 2px 8px #00754a73;
+}
+
+.hero__title--1 {
+  top: 40%;
+  animation-name: titlept1;
+}
+
+.hero__title--2 {
+  top: 52%;
+  animation-name: titlept2;
+}
+
+.hero__title--3 {
+  top: 65%;
+  animation-name: titlept3;
 }
 
 /* ESTA ES LA PARTE DE GLADYS */
