@@ -132,4 +132,37 @@
 
 /* ESTA ES LA PARTE DE GLADYS */
 
+.contenedor1{
+display: flex;
+justify-content: center;
+}
+  
+.title_packs{
+  
+  font-family: "Montserrat", sans-serif;
+  width: 50px;
+}
+.desayuno{
+  text-align: center;
+  
+}
+.images{
+  width: 15%;
+  height: 20%;
+  
+}
+.parrafo{
+  font-family: "Montserrat", sans-serif;
+  font-size: 100px ;
+  font-weight: 600px;
+  text-align: center;
+}
+  
+.contenedor2{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+
 /* ESTA ES LA PARTE DE ANTICONA */
