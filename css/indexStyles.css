@@ -133,3 +133,130 @@
 /* ESTA ES LA PARTE DE GLADYS */
 
 /* ESTA ES LA PARTE DE ANTICONA */
+footer {
+  width: 100%;
+  padding: 50px 0px;
+  background-color: #F2F0EB ;
+  background-size: cover;
+}
+
+.footer__email-form {
+  display: block;
+  text-align: center;
+}
+
+.footer__email-form h2{
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  color: #1E3932;
+}
+
+#footer__email {
+  width: 800px;
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  padding-left: 1px;
+  font-size: 15px;
+  font-family: sans-serif;
+  margin-bottom: 1px;
+}
+
+#footer__email::placeholder {
+  color: #b1b1b1;
+}
+
+#footer__email-btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  background-color:#006241;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+#footer__email-btn:hover {
+  cursor: pointer;
+  background-color: #00754a;
+  transition: all 0.4s ease-out;
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.footer__box {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  text-align: center;
+}
+
+.footer__box h2 {
+  margin-bottom: 5px;
+  color: #1E3932;
+  font-weight: 700;
+  font-family: sans-serif;
+  font-size: 13pt;
+}
+
+.footer__box a {
+  margin-top: 12px;
+  color: #1E3932;
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 8pt;
+  text-decoration: none;
+}
+
+.footer__box a:hover {
+  opacity: 0.8;
+}
+
+.footer__complaints {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.footer__complaints a {
+  text-decoration: none;
+  color: #006241;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+#footer__book {
+  font-size: 50px;
+}
+
+.footer__complaints a:hover {
+  opacity: 0.8;
+}
+
+.footer__social {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer__social a {
+  text-decoration: none;
+  color: #006241;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.footer__social a:hover {
+  opacity: 0.8;
+}
