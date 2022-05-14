@@ -60,72 +60,62 @@
     <!-- ESTA ES LA PARTE DE GLADYS -->
 
     <section class="pack1">
-      <center>
-        <img src="..//images/home_V1.png" width="80%" />
-      </center>
+      <img src="..//images/home_V1.png" class="pack1__imagen" />
     </section>
-    <br />
 
-    <section class="pack2">
-      <h2 class="title_packs">
-        <center>PACKS Y BOXES</center>
+    <section class="pack pack--pack2">
+      <h2 class="pack__titulo">
+        PACKS Y BOXES
       </h2>
-      <div class="contenedor1">
-        <div class="desayuno">
+      <div class="pack__contenedor">
+        <div class="pack__contenedor-desayuno">
           <img
-            class="images"
+            class="pack__contenedor-desayuno-imagen"
             src="..//images/DESAYUNO_PARA_DOS_V4.png"
-            width="15%"
           />
-          <p class="parrafo">Desayunos</p>
+          <p class="pack__contenedor-desayuno-parrafo">Desayunos</p>
         </div>
 
-        <div class="desayuno">
+        <div class="pack__contenedor-desayuno">
           <img
-            class="images"
+            class="pack__contenedor-desayuno-imagen"
             src="..//images/PACK_ANTOJOS_V2.png"
-            width="15%"
           />
-          <p class="parrafo">Antojos de la tarde</p>
+          <p class="pack__contenedor-desayuno-parrafo">Antojos de la tarde</p>
         </div>
 
-        <div class="desayuno">
-          <img class="images" src="..//images/SWEET_BOX_V3.png" width="15%" />
-          <p class="parrafo">Boxes</p>
+        <div class="pack__contenedor-desayuno">
+          <img class="pack__contenedor-desayuno-imagen" src="..//images/SWEET_BOX_V3.png"/>
+          <p class="pack__contenedor-desayuno-parrafo">Boxes</p>
         </div>
       </div>
     </section>
 
-    <section class="pack3">
-      <h2>
-        <!-- ! ERROR: Evitar usar <center>, mejor usar estilos -->
-        <center>TUS FAVORITOS</center>
-      </h2>
-      <div class="contenedor2">
-        <div class="fav">
-          <!-- ! ERROR: La clas FAVORITOS no se esta usando por lo cual no tiene estilos  -->
+    <section class="pack">
+      <h2 class="pack__titulo">TUS FAVORITOS</h2>
+      <div class="pack__contenedor">
+        <div class="pack__contenedor-desayuno">
           <img
-            class="FAVORITOS"
+            class="pack__contenedor-desayuno-imagen"
             src="../images/DUO_DESAYUNO_V4.png"
-            width="15%"
           />
-          <p class="parrafo">Duo Desayunos</p>
+          <p class="pack__contenedor-desayuno-parrafo">Duo Desayunos</p>
         </div>
-        <div class="fav">
+
+        <div class="pack__contenedor-desayuno">
           <img
-            class="FAVORITOS"
+            class="pack__contenedor-desayuno-imagen"
             src="../images/DESAYUNO_PARA_DOS_V4.png"
-            width="15%"
           />
-          <p class="parrafo">Desayuno Para Dos</p>
+          <p class="pack__contenedor-desayuno-parrafo">Desayuno Para Dos</p>
         </div>
-        <div class="fav">
+
+        <div class="pack__contenedor-desayuno">
           <img
-            class="FAVORITOS"
+            class="pack__contenedor-desayuno-imagen"
             src="../images/PACK_ANTOJOS_V3.png"
-            width="15%"
           />
-          <p class="parrafo">Pack Antojos</p>
+          <p class="pack__contenedor-desayuno-parrafo">Pack Antojos</p>
         </div>
       </div>
     </section>
@@ -135,8 +125,8 @@
 
       <div class="footer__email-form">
         <h2>¿Quieres estar al tanto de nuestras promociones y beneficios? ¡Déjanos tu correo!</h2>
-        <input type="submit" value="SUSCRIBIRME" id="footer__email-btn">
-        <input type="email" placeholder="Ingrese su correo electrónico" id="footer__email">
+        <button type="submit" id="footer__email-btn">SUSCRIBIRME</button>
+        <input type="email" placeholder="Ingrese su correo electrónico" class="footer__email-input">
       </div>
 
       <div class="footer__container">
@@ -171,14 +161,10 @@
           <a href="#">TÉRMINOS Y CONDICIONES DE LA WEB</a>
           <a href="#">TÉRMINOS Y CONDICIONES DE PROMOCIONES</a>
         </div>
-
       </div>
 
       <div class="footer__complaints">
-        <a href="#" id="footer__book"> <i class="fa-solid fa-book-open"></i> </a>
-        <br>
-        <a href="#">Libro de Reclamaciones</a>
-        </div>
+        <a href="#" id="footer__book"> <i class="fa-solid fa-book-open footer__icon"></i>Libro de Reclamaciones </a>
       </div>
 
       <div class="footer__social">
