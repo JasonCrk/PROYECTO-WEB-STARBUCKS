@@ -206,23 +206,24 @@ footer {
   color: #1e3932;
 }
 
-.footer__email-input {
+.footer__email {
   width: 800px;
   height: 40px;
   border-radius: 4px;
   outline: none;
   border: none;
+  padding-left: 10px;
   font-size: 15px;
   padding: 0px 12px;
   font-family: sans-serif;
   margin-bottom: 1px;
 }
 
-#footer__email::placeholder {
+.footer__email::placeholder {
   color: #b1b1b1;
 }
 
-#footer__email-btn {
+.footer__email-btn {
   width: 100px;
   height: 40px;
   border-radius: 4px;
@@ -233,9 +234,10 @@ footer {
   font-size: 12px;
   font-family: sans-serif;
   font-weight: 600;
+  margin-right: 10px;
 }
 
-#footer__email-btn:hover {
+.footer__email-btn:hover {
   cursor: pointer;
   background-color: #00754a;
   transition: all 0.4s ease-out;
@@ -291,8 +293,13 @@ footer {
   font-weight: 600;
 }
 
-#footer__book {
+.footer__complaints i {
   font-size: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__book {
   display: flex;
   flex-direction: column;
 }
