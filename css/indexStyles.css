@@ -9,6 +9,10 @@
 */
 
 /* ESTA ES LA PARTE DE EMERZON */
+html {
+  scroll-behavior: smooth;
+}
+
 /* ? HERO */
 .hero {
   padding-top: 80px;
