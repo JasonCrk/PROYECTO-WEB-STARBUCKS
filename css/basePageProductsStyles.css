@@ -1,5 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
 header {
-  padding-top: 80px;
+  padding-top: 10vh;
 }
 
 .header__title {
