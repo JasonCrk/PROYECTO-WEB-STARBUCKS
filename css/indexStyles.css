@@ -70,7 +70,7 @@
 }
 
 .pack--pack2 {
-  background-color: bisque;
+  background-color: #f2f0eb;
 }
 
 .pack2__titulo--pack3 {
@@ -105,7 +105,7 @@
   margin: 0;
   font-family: "Montserrat", sans-serifa;
   font-size: 28px;
-  font-weight: 900;
+  font-weight: 300;
 }
 
 /* ESTA ES LA PARTE DE ANTICONA */
