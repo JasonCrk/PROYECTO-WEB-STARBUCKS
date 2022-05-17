@@ -1,0 +1,38 @@
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  padding-top: 10vh;
+}
+
+.header__title {
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: 900;
+  margin: 10px 0;
+  color: #00754a;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.products__title {
+  text-align: left;
+  width: 85%;
+  font-size: 34px;
+  margin: 14px 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.products__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
