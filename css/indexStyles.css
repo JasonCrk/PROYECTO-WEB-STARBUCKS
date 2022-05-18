@@ -178,7 +178,7 @@ footer {
 .footer__container {
   display: grid;
   width: 90%;
-  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
 }
 
 .footer__box {
@@ -218,7 +218,7 @@ footer {
 .footer__complaints a {
   text-decoration: none;
   color: #006241;
-  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 600;
 }
 
