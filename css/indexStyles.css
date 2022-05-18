@@ -94,6 +94,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
@@ -102,7 +103,7 @@ html {
 }
 
 .pack__contenedor-desayuno-imagen {
-  width: 340px;
+  width: 300px;
 }
 
 .pack__contenedor-desayuno-parrafo {
@@ -118,21 +119,28 @@ footer {
   padding: 50px 0px;
   background-color: #f2f0eb;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-.footer__email-form {
-  display: block;
+.footer__title {
   text-align: center;
-}
-
-.footer__email-form h2 {
   margin-bottom: 20px;
-  font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
   color: #1e3932;
 }
 
+.footer__email-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 .footer__email {
-  width: 800px;
+  width: 55%;
   height: 40px;
   border-radius: 4px;
   outline: none;
@@ -140,7 +148,7 @@ footer {
   padding-left: 10px;
   font-size: 15px;
   padding: 0px 12px;
-  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
   margin-bottom: 1px;
 }
 
@@ -149,16 +157,15 @@ footer {
 }
 
 .footer__email-btn {
-  width: 100px;
-  height: 40px;
   border-radius: 4px;
   background-color: #006241;
   outline: none;
   border: none;
+  padding: 11px 13px;
   color: white;
-  font-size: 12px;
-  font-family: sans-serif;
-  font-weight: 600;
+  font-size: 15px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 900;
   margin-right: 10px;
 }
 
@@ -170,12 +177,8 @@ footer {
 
 .footer__container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: auto;
-  margin-top: 5px;
+  width: 90%;
+  grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
 }
 
 .footer__box {
@@ -183,13 +186,14 @@ footer {
   flex-direction: column;
   padding: 40px;
   text-align: center;
+  justify-content: baseline;
 }
 
 .footer__box h2 {
   margin-bottom: 5px;
   color: #1e3932;
   font-weight: 700;
-  font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 13pt;
 }
 
@@ -197,8 +201,8 @@ footer {
   margin-top: 12px;
   color: #1e3932;
   font-weight: 600;
-  font-family: sans-serif;
-  font-size: 8pt;
+  font-family: "Rubik", sans-serif;
+  font-size: 1rem;
   text-decoration: none;
 }
 
@@ -207,21 +211,19 @@ footer {
 }
 
 .footer__complaints {
-  text-align: center;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .footer__complaints a {
   text-decoration: none;
   color: #006241;
-  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 600;
 }
 
 .footer__complaints i {
   font-size: 50px;
-  display: flex;
-  flex-direction: column;
 }
 
 .footer__book {
@@ -229,19 +231,17 @@ footer {
   flex-direction: column;
 }
 
-.footer__complaints a:hover {
+.footer__book:hover {
   opacity: 0.8;
 }
 
 .footer__social {
-  text-align: center;
   margin-top: 30px;
 }
 
 .footer__social a {
   text-decoration: none;
   color: #006241;
-  font-family: sans-serif;
   font-weight: 600;
   font-size: 30px;
 }
