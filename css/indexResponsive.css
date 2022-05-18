@@ -100,3 +100,11 @@
     font-size: 40px;
   }
 }
+
+@media screen and (min-width: 1684px) {
+  .footer__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
