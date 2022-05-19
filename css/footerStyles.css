@@ -1,0 +1,135 @@
+footer {
+  width: 100%;
+  padding: 50px 0px;
+  background-color: #f2f0eb;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer__title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #1e3932;
+}
+
+.footer__email-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.footer__email {
+  width: 55%;
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  font-size: 15px;
+  padding: 0px 12px;
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 1px;
+}
+
+.footer__email::placeholder {
+  color: #b1b1b1;
+}
+
+.footer__email-btn {
+  border-radius: 4px;
+  background-color: #006241;
+  outline: none;
+  border: none;
+  padding: 11px 13px;
+  color: white;
+  font-size: 15px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+.footer__email-btn:hover {
+  cursor: pointer;
+  background-color: #00754a;
+  transition: all 0.4s ease-out;
+}
+
+.footer__container {
+  display: grid;
+  width: 90%;
+  grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+}
+
+.footer__box {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  text-align: center;
+  justify-content: baseline;
+}
+
+.footer__box h2 {
+  margin-bottom: 5px;
+  color: #1e3932;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13pt;
+}
+
+.footer__box a {
+  margin-top: 12px;
+  color: #1e3932;
+  font-weight: 600;
+  font-family: "Rubik", sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.footer__box a:hover {
+  opacity: 0.8;
+}
+
+.footer__complaints {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.footer__complaints a {
+  text-decoration: none;
+  color: #006241;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+}
+
+.footer__complaints i {
+  font-size: 50px;
+}
+
+.footer__book {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__book:hover {
+  opacity: 0.8;
+}
+
+.footer__social {
+  margin-top: 30px;
+}
+
+.footer__social a {
+  text-decoration: none;
+  color: #006241;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.footer__social a:hover {
+  opacity: 0.8;
+}
