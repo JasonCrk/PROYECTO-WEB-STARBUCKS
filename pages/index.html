@@ -20,11 +20,13 @@
     <link rel="stylesheet" href="../css/normalize.css" />
     <link rel="stylesheet" href="../css/animations.css" />
     <link rel="stylesheet" href="../css/indexResponsive.css">
+    <link rel="stylesheet" href="../css/footerStyles.css">
   </head>
   <body>
     <!-- ESTA ES LA PARTE DE EMERZON -->
     <nav class="navbar">
       <div class="navbar__container">
+
         <a class="navbar__container-logo" href="index.html">
           <img
             class="navbar__logo"
@@ -32,11 +34,14 @@
             alt="Starbucks-logo"
           />
         </a>
+
         <div class="navbar__search-container">
           <input class="navbar__search" type="text" placeholder="Busqueda..." />
           <i class="fa-solid fa-magnifying-glass navbar__search-icon"></i>
         </div>
-        <i class="fa-solid fa-bars navbar__links-icon"></i>
+
+        <i class="fa-solid fa-bars navbar__links-icon" id="menu"></i>
+
         <ul class="navbar__links">
           <li>
             <a class="navbar__link" href="bebidas.html">Bebidas</a>
@@ -53,6 +58,7 @@
         </ul>
       </div>
     </nav>
+
     <section class="hero">
       <img class="hero__image" src="../images/image2.png" alt="hero image" />
       <h2 class="hero__title hero__title--1">BIENVENIDOS</h2>
@@ -177,5 +183,8 @@
       </div>
 
     </footer>
+
+    <script src="../js/menu.js"></script>
+
   </body>
 </html>
