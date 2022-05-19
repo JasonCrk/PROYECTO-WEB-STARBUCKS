@@ -1,24 +1,28 @@
 .subnav {
-  top: 78px;
+  top: 9.5vh;
   position: sticky;
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: #00754a;
+  background-color: #009c63;
 }
 
 .subnav__links {
   display: flex;
+  margin: 0;
   justify-content: center;
+  align-items: center;
+  padding: 0;
 }
 
 .subnav__links li {
   list-style: none;
+  padding: 13px 0;
 }
 
 .subnav__link {
-  padding: 15px 20px;
-  font-size: 22px;
+  padding: 12px 20px;
+  font-size: 18px;
   font-family: "Rubik", sans-serif;
   text-decoration: none;
   color: white;
@@ -27,4 +31,79 @@
 
 .subnav__link:hover {
   background-color: #006241;
+}
+
+.btnDrop {
+  text-align: center;
+  width: 100%;
+  top: 10vh;
+  position: sticky;
+  margin: 0;
+  padding: 10px 0;
+  z-index: 100;
+  display: none;
+  border: none;
+  background-color: #009c63;
+  color: white;
+  font-size: 20px;
+}
+
+/* * Resolución algo pequeña */
+@media screen and (max-width: 1460px) {
+  .subnav__links {
+    display: flex;
+    justify-content: center;
+  }
+
+  .subnav__link {
+    font-size: 16px;
+  }
+}
+
+/* * TABLES */
+@media screen and (max-width: 1170px) {
+  .subnav {
+    top: 16.2vh;
+    display: none;
+  }
+
+  .subnav__links {
+    flex-direction: column;
+  }
+
+  .subnav__link {
+    padding: 5px;
+    font-size: 18px;
+  }
+
+  .subnav__links li {
+    list-style: none;
+    padding: 6px 0;
+  }
+
+  .btnDrop {
+    display: block;
+  }
+}
+
+/* * MOBILE */
+@media screen and (max-width: 500px) {
+  .subnav {
+    top: 14.7vh;
+    display: none;
+  }
+
+  .subnav__links {
+    flex-direction: column;
+    padding: 8px 0;
+  }
+
+  .subnav__link {
+    padding: 5px;
+  }
+
+  .subnav__links li {
+    list-style: none;
+    padding: 6px 0;
+  }
 }
