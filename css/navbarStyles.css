@@ -7,7 +7,11 @@
   align-items: center;
   background-color: white;
   box-shadow: 0 0 10px rgba(126, 126, 126, 0.363);
-  z-index: 100;
+  z-index: 400;
+}
+
+.navbar-active {
+  display: flex;
 }
 
 .navbar__container {
@@ -101,14 +105,15 @@
 
 @media screen and (max-width: 500px) {
   .navbar__links {
-    display: inline-block;
-    /* display: none; */
+    /* display: inline-block; */
+    display: none;
     position: absolute;
     flex-direction: column;
     background-color: #00754a;
-    top: 8vh;
+    top: 7vh;
     left: 0;
     width: 100%;
+    z-index: 400;
   }
 
   .navbar__links li {
@@ -137,6 +142,6 @@
   }
 
   .navbar__search-icon {
-    display: flex;
+    display: inline-block;
   }
 }
