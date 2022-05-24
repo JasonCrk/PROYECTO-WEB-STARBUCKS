@@ -16,9 +16,10 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="../css/indexStyles.css" />
-    <link rel="stylesheet" href="../css/navbarStyles.css">
+    <link rel="stylesheet" href="../css/navbarStyles.css" />
     <link rel="stylesheet" href="../css/normalize.css" />
     <link rel="stylesheet" href="../css/animations.css" />
+    <link rel="stylesheet" href="../css/indexResponsive.css" />
   </head>
   <body>
     <!-- ESTA ES LA PARTE DE EMERZON -->
@@ -35,6 +36,7 @@
           <input class="navbar__search" type="text" placeholder="Busqueda..." />
           <i class="fa-solid fa-magnifying-glass navbar__search-icon"></i>
         </div>
+        <i class="fa-solid fa-bars navbar__links-icon"></i>
         <ul class="navbar__links">
           <li>
             <a class="navbar__link" href="bebidas.html">Bebidas</a>
@@ -46,7 +48,9 @@
             <a class="navbar__link" href="#">Packs y Boxes</a>
           </li>
           <li>
-            <a class="navbar__link" href="merchycafe.html">Merch y café en grano</a>
+            <a class="navbar__link" href="merchycafe.html"
+              >Merch y café en grano</a
+            >
           </li>
         </ul>
       </div>
@@ -124,11 +128,11 @@
 
     <!-- ESTA ES LA PARTE DE ANTICONA -->
     <footer>
+      <h2 class="footer__title">
+        ¿Quieres estar al tanto de nuestras promociones y beneficios? ¡Déjanos
+        tu correo!
+      </h2>
       <div class="footer__email-form">
-        <h2>
-          ¿Quieres estar al tanto de nuestras promociones y beneficios? ¡Déjanos
-          tu correo!
-        </h2>
         <button class="footer__email-btn">SUSCRIBIRME</button>
         <input
           type="email"
@@ -144,7 +148,6 @@
           <a href="#">TIENDAS, HORARIOS Y ZONA DE COBERTURA</a>
           <a href="#">STARBUCKS STORIES</a>
         </div>
-
         <div class="footer__box">
           <h2>STARBUCKS REWARDS</h2>
           <a href="#">STARBUCKS REWARDS</a>
@@ -152,7 +155,6 @@
           <a href="#">TÉRMINOS DE USO</a>
           <a href="#">POLÍTICA DE PRIVACIDAD</a>
         </div>
-
         <div class="footer__box">
           <h2>CONTACTO Y ATENCIÓN AL CLIENTE</h2>
           <a href="#">WHATSAPP (01)505-0505</a>
@@ -160,7 +162,6 @@
           <a href="#">TELÉFONO PROVINCIA: (044)779-009</a>
           <a href="#">COMPROBANTES ELECTRÓNICOS</a>
         </div>
-
         <div class="footer__box">
           <h2>POLÍTICAS Y TÉRMINOS</h2>
           <a href="#">POLÍTICAS DE PRIVACIDAD</a>
@@ -169,14 +170,12 @@
           <a href="#">TÉRMINOS Y CONDICIONES DE PROMOCIONES</a>
         </div>
       </div>
-
       <div class="footer__complaints">
         <a href="#" class="footer__book">
-          <i class="fa-solid fa-book-open footer__icon"></i> Libro de
-          Reclamaciones</a
-        >
+          <i class="fa-solid fa-book-open footer__bool-icon"></i>
+          <span class="footer__book-text">Libro de Reclamaciones</span>
+        </a>
       </div>
-
       <div class="footer__social">
         <a href="#"> <i class="fa-brands fa-facebook-square"></i> </a>
         <a href="#"> <i class="fa-brands fa-instagram"></i> </a>
