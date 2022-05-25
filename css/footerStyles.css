@@ -138,7 +138,9 @@ footer {
   .footer__title {
     font-size: 25px;
   }
-
+  .footer__email-form {
+    flex-direction: column-reverse;
+  }
   .footer__email {
     font-size: 17px;
     width: 80%;
