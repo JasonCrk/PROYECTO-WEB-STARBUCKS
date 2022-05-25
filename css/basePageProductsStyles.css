@@ -42,5 +42,6 @@ header {
   .products__title {
     text-align: center;
     width: 100%;
+    font-size: 28px;
   }
 }

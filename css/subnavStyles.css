@@ -63,7 +63,7 @@
 /* * TABLES */
 @media screen and (max-width: 1170px) {
   .subnav {
-    top: 16.2vh;
+    top: 15.4vh;
     display: none;
   }
 
@@ -82,6 +82,7 @@
   }
 
   .btnDrop {
+    top: 9.9vh;
     display: block;
   }
 }
