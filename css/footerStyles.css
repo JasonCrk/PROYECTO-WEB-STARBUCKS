@@ -133,3 +133,31 @@ footer {
 .footer__social a:hover {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 500px) {
+  .footer__title {
+    font-size: 25px;
+  }
+
+  .footer__email {
+    font-size: 17px;
+    width: 80%;
+  }
+
+  .footer__email-btn {
+    font-size: 15px;
+    margin-top: 6px;
+  }
+
+  .footer__box h2 {
+    font-size: 1.2rem;
+  }
+
+  .footer__box a {
+    font-size: 1rem;
+  }
+
+  .footer__social a {
+    font-size: 40px;
+  }
+}
