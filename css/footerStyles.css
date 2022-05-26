@@ -134,6 +134,12 @@ footer {
   opacity: 0.8;
 }
 
+@media screen and (min-width: 1700px) {
+  .footer__container {
+    grid-template-columns: repeat(4, 19rem);
+  }
+}
+
 @media screen and (max-width: 500px) {
   .footer__title {
     font-size: 25px;
