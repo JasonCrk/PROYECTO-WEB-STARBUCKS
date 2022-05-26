@@ -61,7 +61,6 @@ footer {
 
 .footer__container {
   display: grid;
-  width: 90%;
   grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
 }
 
