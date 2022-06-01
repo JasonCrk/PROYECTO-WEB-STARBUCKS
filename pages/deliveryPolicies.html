@@ -19,20 +19,49 @@
 </head>
 <body>
     <!-- DEBO AÑADIR NAVBAR PRINCIPAL -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <span class="navbar__container-logo">
+          <img
+            class="navbar__logo"
+            src="../images/Starbucks-logo.png"
+            alt="Starbucks-logo"
+          />
+        </span>
+        <div class="navbar__search-container">
+          <input class="navbar__search" type="text" placeholder="Busqueda..." />
+          <i class="fa-solid fa-magnifying-glass navbar__search-icon"></i>
+        </div>
+        <ul class="navbar__links">
+          <li>
+            <a class="navbar__link" href="#">Bebidas</a>
+          </li>
+          <li>
+            <a class="navbar__link" href="#">Alimentos</a>
+          </li>
+          <li>
+            <a class="navbar__link" href="#">Packs y Boxes</a>
+          </li>
+          <li>
+            <a class="navbar__link" href="#">Merch y café en grano</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <!-- AÑADIR SECCIÓN  -->
     <section>
       <h2>POLÍTICAS DE DELIVERY, PICK UP Y AUTOSTARBUCKS </h2>
       <p>Estimado Cliente, recomendamos que revises nuestra Política cuando realices tus pedidos por nuestros canales Delivery, Recojo en tienda (Pick up) y Auto Starbucks.</p>
       <ol type="I">
-        <li>DELIVERY
+        <li class="list_tittle">DELIVERY
           <p>A continuación te presentamos los Términos y Condiciones de nuestra Política de Delivery:</p>
           <ol>
-            <li>MEDIDAS DE SEGURIDAD:
+            <li class="list_subtittle">MEDIDAS DE SEGURIDAD:
               <p>–  Por temas de seguridad sanitaria los repartidores (partner motorizado, partner a pie o partner en bicicleta) entregaran los pedidos en la puerta principal de la casa,  condominio, edificio, empresas, etc. Es decir el motorizado no ingresará ni subirá a los departamentos, áreas, torres, etc. </p>
               <p>–  Con respecto a la preparación, empaque y entrega de los productos, garantizar que como empresa estamos cumpliendo con todos los protocolos de seguridad. Lo invitamos a revisar en nuestra página web: www.starbucks.com.pe. </p>
             </li>
-            <li>SOBRE EL SERVICIO DE DELIVERY:
+            <li class="list_subtittle">SOBRE EL SERVICIO DE DELIVERY:
               <p>–  El servicio de delivery se brinda respecto de aquellos pedidos efectuados por los Clientes a través de las siguientes vías: </p>
               <p>(i) vía telefónica (01 505 0050)</p>
               <p>(ii) vía página web (www.starbucks.pe)</p>
@@ -47,7 +76,7 @@
               <p>– La empresa no se hace responsable por el estado de los pedidos que hubieran sido adquiridos por intermedio de terceras empresas.</p>
               <p>– La empresa se reserva el derecho de suspender el servicio de delivery en cualquier momento.</p>
             </li>
-            <li>SOBRE LA RECEPCIÓN DE PEDIDOS:
+            <li class="list_subtittle">SOBRE LA RECEPCIÓN DE PEDIDOS:
               <p>Todos los clientes que reciban sus pedidos por este canal deberán seguir las siguientes medidas de seguridad:</p>
               <p>–  Portar mascarilla al momento de recoger su pedido.</p>
               <p>–  Verificar que su pedido tenga el sticker de seguridad.</p>
@@ -55,19 +84,19 @@
               <p>La empresa no brindará atención a los clientes que no cumplan con las medidas preventivas antes indicadas.</p>
               <p>Se recomienda al cliente que al recibir su pedido pueda desinfectar el empaque, para posteriormente desecharlo, y efectuar el lavado de manos correspondiente.</p>
             </li>
-            <li>HORARIO DE DELIVERY:
+            <li class="list_subtittle">HORARIO DE DELIVERY:
               <p>Los horarios de atención del delivery podrán estar sujetos a modificaciones por diferentes motivos, entre ellos: medidas dictadas por el Gobierno, cierre de tienda, días festivos y/o feriados, huelgas, condiciones de clima (lluvias, neblina, garúa, etc.), desastres naturales (sismos, terremotos, huaycos, entre otros), días de eventos deportivos/partidos de fútbol o ubicación de la vivienda (dificultades de acceso en determinadas horas, incremento de peligrosidad, etc.); lo cual será informado al momento en que usted se contacte con nosotros para realizar su pedido.</p>
               <p>El delivery de las tiendas ubicadas en la Provincia de Lima por lo general atiende en los siguientes horarios. Sin embargo, podría ocurrir que las tiendas modifiquen sus horarios de acuerdo a lo señalado en el párrafo anterior o se encuentren dentro del listado de tiendas exceptuadas a dicho horario.</p>
             </li>
           </ol>
         </li>
-        <li>POLÍTICA DE RECOJO EN TIENDA (PICK UP)
+        <li class="list_tittle">POLÍTICA DE RECOJO EN TIENDA (PICK UP)
           <p>A continuación te presentamos los Términos y Condiciones de nuestra Política de Recojo en tienda (Pick Up).</p>
           <ol>
-            <li>MEDIDAS DE SEGURIDAD:
+            <li class="list_subtittle">MEDIDAS DE SEGURIDAD:
               <p>Con respecto a la preparación, empaque y entrega de los productos en Tienda, garantizar que como empresa estamos cumpliendo con todos los protocolos de seguridad. Lo invitamos a revisar en nuestra página web: www.starbucks.com.pe.</p>
             </li>
-            <li>SOBRE EL SERVICIO DE PICK UP:
+            <li class="list_subtittle">SOBRE EL SERVICIO DE PICK UP:
               <p>– El servicio de PickUp se brinda respecto de aquellos pedidos efectuados por los Clientes a través de las siguientes vías: </p>
               <p>1.vía telefónica(01 505 0050)</p>
               <p>2.vía página web (www.starbucks.pe)</p>
@@ -81,7 +110,7 @@
               <p>– El pedido debe ser recogido en tienda a los 20 min aproximadamente de haber realizado la solicitud.</p>
               <p>– Una vez confirmada la tienda donde se recogerá el pedido, no se aceptaran cambios de tienda o productos.</p>
             </li>
-            <li>SOBRE LA RECEPCIÓN DE PEDIDOS:
+            <li class="list_subtittle">SOBRE LA RECEPCIÓN DE PEDIDOS:
               <p>Todos los clientes que se acerquen a recoger sus pedidos deberán seguir las siguientes medidas de seguridad:</p>
               <p>– Portar mascarilla al momento de recoger su pedido.</p>
               <p>– Verificar que su pedido tenga el sticker de seguridad.</p>
@@ -91,17 +120,17 @@
             </li>
           </ol>
         </li>
-        <li>POLÍTICA DE RECOJO DESDE EL AUTO
+        <li class="list_tittle">POLÍTICA DE RECOJO DESDE EL AUTO
           <p>A continuación te presentamos los Términos y Condiciones de nuestra Política de Auto Starbucks o Pedido al auto.</p>
           <ol>
-            <li>MEDIDAS DE SEGURIDAD:
+            <li class="list_subtittle">MEDIDAS DE SEGURIDAD:
               <p>Con respecto a la preparación, empaque y entrega de los productos en Tienda, garantizar que como empresa estamos cumpliendo con todos los protocolos de seguridad. Lo invitamos a revisar en nuestra página web: www.starbucks.com.pe.</p>
             </li>
-            <li>SOBRE EL SERVICIO DE AUTO STARBUCKS O PEDIDOS AL AUTO:
+            <li class="list_subtittle">SOBRE EL SERVICIO DE AUTO STARBUCKS O PEDIDOS AL AUTO:
               <p>– El servicio de Auto Starbucks se brinda respecto de aquellos pedidos efectuados por los Clientes a través de las siguientes vías: </p>
               <p>1. vía telefónica.</p>
               <p>2. vía página web.</p>
-              <p>3.canales de mensajería instantánea (Whatsapp y Facebooks Messenger).</p>
+              <p>3. canales de mensajería instantánea (Whatsapp y Facebooks Messenger).</p>
               <p>– Las Tiendas habilitadas para realizar pedidos Auto Starbucks se validarán al momento de tomar el pedido por el canal elegido por el cliente.</p>
               <p>– No se aceptan billetes mayores de $50.00 como forma de pago.</p>
               <p>– Nuestros precios incluyen IGV y recargo al consumo. </p>
@@ -114,6 +143,58 @@
     </section>
 
     <!-- DEBO AÑADIR FOOTER PRINCIPAL -->
+    <footer>
+
+      <div class="footer__email-form">
+        <h2>¿Quieres estar al tanto de nuestras promociones y beneficios? ¡Déjanos tu correo!</h2>
+        <button class="footer__email-btn">SUSCRIBIRME</button>
+        <input type="email" placeholder="Ingrese su correo electrónico" class="footer__email">
+      </div>
+
+      <div class="footer__container">
+
+        <div class="footer__box">
+          <h2>SOBRE NOSOTROS</h2>
+          <a href="..//pages/mission.html">NUESTRA MISIÓN</a>
+          <a href="..//pages/stores.html">TIENDAS, HORARIOS Y ZONA DE COBERTURA</a>
+          <a href="https://historias.starbucks.com/" target="_blank">STARBUCKS STORIES</a>
+        </div>
+
+        <div class="footer__box">
+          <h2>STARBUCKS REWARDS</h2>
+          <a href="https://www.starbucksrewards.com.pe/Starbucks" target="_blank">STARBUCKS REWARDS</a>
+          <a href="..//pages/questions.html" >PREGUNTAS FRECUENTES</a>
+          <a href="..//pages/terms.html" >TÉRMINOS DE USO</a>
+          <a href="..//pages/policy.html">POLÍTICA DE PRIVACIDAD</a>
+        </div>
+
+        <div class="footer__box">
+          <h2>CONTACTO Y ATENCIÓN AL CLIENTE</h2>
+          <a href="https://api.whatsapp.com/send/?phone=51015050505&text&app_absent=0" target="_blank">WHATSAPP (01)505-0505</a>
+          <a href="tel:015050050" target="_blank">TELÉFONO LIMA: (01)505-0050</a>
+          <a href="tel:779009" target="_blank">TELÉFONO PROVINCIA: (044)779-009</a>
+          <a href="https://asp402r.paperless.com.pe/DTEStarbucks/" target="_blank">COMPROBANTES ELECTRÓNICOS</a>
+        </div>
+
+        <div class="footer__box">
+          <h2>POLÍTICAS Y TÉRMINOS</h2>
+          <a href="..//pages/privacyPolicies.html">POLÍTICAS DE PRIVACIDAD</a>
+          <a href="..//pages/deliveryPolicies.html">POLÍTICAS DE DELIVERY, PICK UP Y AUTOSTARBUCKS</a>
+          <a href="..//pages/termsWeb.html">TÉRMINOS Y CONDICIONES DE LA WEB</a>
+          <a href="..//pages/termsPromotions.html">TÉRMINOS Y CONDICIONES DE PROMOCIONES</a>
+        </div>
+      </div>
+
+      <div class="footer__complaints">
+        <a href="https://librodereclamaciones.franquiciasperu.com/Reclamo/RegistrarReclamo?idmarca=121" class="footer__book" target="_blank"> <i class="fa-solid fa-book-open footer__icon"></i> Libro de Reclamaciones</a>
+      </div>
+
+      <div class="footer__social">
+        <a href="https://www.facebook.com/starbucksperu" target="_blank"> <i class="fa-brands fa-facebook-square"></i> </a>
+        <a href="https://www.instagram.com/starbuckspe/" target="_blank"> <i class="fa-brands fa-instagram"></i> </a>
+      </div>
+
+    </footer>
 
 </body>
 </html>
