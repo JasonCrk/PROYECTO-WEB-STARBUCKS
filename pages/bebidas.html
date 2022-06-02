@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STARBUCKS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b9630e9243.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/navbarStyles.css" />
+    <link rel="stylesheet" href="../css/basePageProductsStyles.css" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/productStyles.css" />
+    <link rel="stylesheet" href="../css/subnavStyles.css" />
+    <link rel="stylesheet" href="../css/footerStyles.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a class="navbar__container-logo" href="index.html">
+          <img
+            class="navbar__logo"
+            src="../images/Starbucks-logo.png"
+            alt="Starbucks-logo"
+          />
+        </a>
+        <div class="navbar__search-container">
+          <input class="navbar__search" type="text" placeholder="Busqueda..." />
+          <i class="fa-solid fa-magnifying-glass navbar__search-icon"></i>
+        </div>
+        <i class="fa-solid fa-bars navbar__links-icon" id="menu"></i>
+        <ul class="navbar__links">
+          <li>
+            <a class="navbar__link" href="bebidas.html">Bebidas</a>
+          </li>
+          <li>
+            <a class="navbar__link" href="Alimentos.html">Alimentos</a>
+          </li>
+          <li>
+            <a class="navbar__link" href="PacksyBoxes.html">Packs y Boxes</a>
+          </li>
+          <li>
+            <a class="navbar__link" href="merchycafe.html"
+              >Merch y café en grano</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header id="frappuccinos">
+      <h1 class="header__title">BEBIDAS</h1>
+    </header>
+
+    <!-- * Botton para que pararesca el subNavbar -->
+    <button class="btnDrop" id="subMenu">
+      <i class="fa-solid fa-caret-down"></i>
+    </button>
+
+    <!-- * SUBNAVBAR -->
+    <nav class="subnav" id="subNav">
+      <ul class="subnav__links">
+        <li>
+          <a class="subnav__link" href="#frappuccinos">Frappuccinos</a>
+        </li>
+        <li>
+          <a class="subnav__link" href="#expressoCaliente">Expresso Caliente</a>
+        </li>
+        <li>
+          <a class="subnav__link" href="#expressoFrio">Expresso Frío</a>
+        </li>
+        <li>
+          <a class="subnav__link" href="#obCalientes"
+            >Otras bebidas calientes</a
+          >
+        </li>
+        <li>
+          <a class="subnav__link" href="#obFrias">Otras bebidas frías</a>
+        </li>
+        <li>
+          <a class="subnav__link" href="#refreshers">Refreshers</a>
+        </li>
+        <li>
+          <a class="subnav__link" href="#shakenExpresso">Shaken Expresso</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="products">
+        <h2 class="products__title">FRAPPUCCINOS</h2>
+        <div class="products__list">
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/CaramelRibbonCrunchFrapp_V1.png"
+              alt="CaramelRibbonCrunchFrapp_V1"
+            />
+            <p class="product__name">Caramel Ribbon Crunch Frappuccino</p>
+            <div class="product__price">
+              <h4 class="product__price-title">ORDENAR DESDE</h4>
+              <span class="product__price-amount">S/14.50</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/MochaCookieCrumbleFrapp_V1.png"
+              alt="MochaCookieCrumbleFrapp_V1"
+            />
+            <p class="product__name">Mocha Cookie Crumble Frappuccino</p>
+            <div class="product__price">
+              <h4 class="product__price-title">ORDENAR DESDE</h4>
+              <span class="product__price-amount">S/14.50</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/DOUBLE_CHOCOLATE_FRAPP_V1.png"
+              alt="DOUBLE_CHOCOLATE_FRAPP_V1"
+            />
+            <p class="product__name">doble chocolate frapuccino</p>
+            <div class="product__price">
+              <h4 class="product__price-title">ORDENAR DESDE</h4>
+              <span class="product__price-amount">S/14.50</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/DAY_COOKIES_CREAM_FRAPPUCCINO_ECOMMERCE.png"
+              alt="DAY_COOKIES_CREAM_FRAPPUCCINO_ECOMMERCE"
+            />
+            <p class="product__name" id="expressoCaliente">
+              Day Cookies & Cream Frappuccino
+            </p>
+            <div class="product__price">
+              <h4 class="product__price-title">ORDENAR DESDE</h4>
+              <span class="product__price-amount">S/14.00</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="products">
+        <h2 class="products__title">ESPRESSO CALIENTE</h2>
+        <div class="products__list">
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/FLAT_WHITE_CON_LECHE_DE_AVENA_ECOMMERCE.png"
+              alt="FLAT_WHITE_CON_LECHE_DE_AVENA_ECOMMERCE"
+            />
+            <p class="product__name">Flat White con bebida de avena</p>
+            <div class="product__price">
+              <h4 class="product__price-title">ORDENAR DESDE</h4>
+              <span class="product__price-amount">S/14.50</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/COCOA_MACCHIATO_CON_LECHE_DE_AVENA_ECOMMERCE.png"
+              alt="COCOA_MACCHIATO_CON_LECHE_DE_AVENA_ECOMMERCE"
+            />
+            <p class="product__name">Cocoa Macchiatto con bebida de avena</p>
+            <div class="product__price">
+              <h4 class="product__price-title">ORDENAR DESDE</h4>
+              <span class="product__price-amount">S/14.00</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/BLACK_AND_WHITE_MOCHA_V2.png"
+              alt="BLACK_AND_WHITE_MOCHA_V2"
+            />
+            <p class="product__name">Black & White Mocha</p>
+            <div class="product__price">
+              <h4 class="product__price-title">ORDENAR DESDE</h4>
+              <span class="product__price-amount">S/13.00</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/AMERICANO_V2.png"
+              alt="AMERICANO_V2"
+            />
+            <p class="product__name" id="expressoFrio">Americano</p>
+            <div class="product__price">
+              <h4 class="product__price-title">ORDENAR DESDE</h4>
+              <span class="product__price-amount">S/7.50</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="products">
+        <h2 class="products__title">ESPRESSO FRÍO</h2>
+        <div class="products__list">
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/ICED_LATTE_CON_LECHE_DE_AVENA_ECOMMERCE.png"
+              alt="ICED_LATTE_CON_LECHE_DE_AVENA_ECOMMERCE"
+            />
+            <p class="product__name">Latte Frío con bebida de avena</p>
+            <div class="product__price">
+              <h4 class="product__price-title">ORDENAR DESDE</h4>
+              <span class="product__price-amount">S/14.50</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/MOCHA_MACCHIATO_FR%C3%8DO_ECOMMERCE.png"
+              alt="MOCHA_MACCHIATO_FR%C3%8DO_ECOMMERCE"
+            />
+            <p class="product__name">
+              Cocoa Macchiatto Frío con bebida de avena
+            </p>
+            <div class="product__price">
+              <h4 class="product__price-title">ORDENAR DESDE</h4>
+              <span class="product__price-amount">S/14.00</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/BLACK_COLD_BREW_V2.png"
+              alt="BLACK_COLD_BREW_V2"
+            />
+            <p class="product__name">Black Cold Brew</p>
+            <div class="product__price">
+              <h4 class="product__price-title">ORDENAR DESDE</h4>
+              <span class="product__price-amount">S/8.00</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/VAINILLA_LATTE_HELADO_V2.png"
+              alt="VAINILLA_LATTE_HELADO_V2"
+            />
+            <p class="product__name" id="obCalientes">Vainilla Latte Helado</p>
+            <div class="product__price">
+              <h4 class="product__price-title">ORDENAR DESDE</h4>
+              <span class="product__price-amount">S/11.00</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="products">
+        <h2 class="products__title">OTRAS BEBIDAS CALIENTES</h2>
+        <div class="products__list">
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/CHOCOLATE_CALIENTE_V2.png"
+              alt="CHOCOLATE_CALIENTE_V2"
+            />
+            <p class="product__name">Chocolate Caliente</p>
+            <div class="product__price">
+              <h4 class="product__price-title">ORDENAR DESDE</h4>
+              <span class="product__price-amount">S/11.50</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/MATCHA_LATTE_ECOMMERCE_V1.png"
+              alt="MATCHA_LATTE_ECOMMERCE_V1"
+            />
+            <p class="product__name">Matcha Latte</p>
+            <div class="product__price">
+              <h4 class="product__price-title">ORDENAR DESDE</h4>
+              <span class="product__price-amount">S/12.50</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/TE_CHAI_TEAVANNA_V2.png"
+              alt="TE_CHAI_TEAVANNA_V2"
+            />
+            <p class="product__name">Té Chai Teavanna</p>
+            <div class="product__price">
+              <h4 class="product__price-title">ORDENAR DESDE</h4>
+              <span class="product__price-amount">S/7.50</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/TE_HIBISCUS_TEAVANNA_V2.png"
+              alt="TE_HIBISCUS_TEAVANNA_V2"
+            />
+            <p class="product__name" id="obFrias">Té Hibiscus Teavanna</p>
+            <div class="product__price">
+              <h4 class="product__price-title">ORDENAR DESDE</h4>
+              <span class="product__price-amount">S/7.50</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="products">
+        <h2 class="products__title">OTRAS BEBIDAS FRÍAS</h2>
+        <div class="products__list">
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/MATCHA_HELADO_ECOMMERCE_V1.png"
+              alt="MATCHA_HELADO_ECOMMERCE_V1"
+            />
+            <p class="product__name">Matcha Latte Helado</p>
+            <div class="product__price">
+              <h4 class="product__price-title">ORDENAR DESDE</h4>
+              <span class="product__price-amount">S/12.50</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/MATCHA_LEMONADE_HELADO_ECOMMERCE_V1.png"
+              alt="MATCHA_LEMONADE_HELADO_ECOMMERCE_V1"
+            />
+            <p class="product__name">Matcha Lemonade</p>
+            <div class="product__price">
+              <h4 class="product__price-title">ORDENAR DESDE</h4>
+              <span class="product__price-amount">S/11.50</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/JUGO_DE_ESPINACA_Y_MANZANA_V2.png"
+              alt="JUGO_DE_ESPINACA_Y_MANZANA_V2"
+            />
+            <p class="product__name">Jugo de Espinaca y Manzana</p>
+            <div class="product__price">
+              <h4 class="product__price-title">ORDENAR DESDE</h4>
+              <span class="product__price-amount">S/12.00</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/JUGO_DE_PI%C3%91A_Y_MANZANA_V2.png"
+              alt="JUGO_DE_PI%C3%91A_Y_MANZANA_V2"
+            />
+            <p class="product__name" id="refreshers">Jugo de Piña y Manzana</p>
+            <div class="product__price">
+              <h4 class="product__price-title">ORDENAR DESDE</h4>
+              <span class="product__price-amount">S/12.00</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="products">
+        <h2 class="products__title">REFRESHERS</h2>
+        <div class="products__list">
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/STRAWBERRY_ACAI_FROZEN_REFRESHER_V1.png"
+              alt="STRAWBERRY_ACAI_FROZEN_REFRESHER_V1"
+            />
+            <p class="product__name">Strawberry Acai Frozen Refresher</p>
+            <div class="product__price">
+              <h4 class="product__price-title">ORDENAR DESDE</h4>
+              <span class="product__price-amount">S/14.50</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/MANGO_DRAGON_FRUIT_FROZEN_REFRESHER_V1.png"
+              alt="MANGO_DRAGON_FRUIT_FROZEN_REFRESHER_V1"
+            />
+            <p class="product__name">Mango Dragon Frozen Refresher</p>
+            <div class="product__price">
+              <h4 class="product__price-title">ORDENAR DESDE</h4>
+              <span class="product__price-amount">S/14.50</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/STRAWBERRY_ACAI_REFRESHER_V2.png"
+              alt="STRAWBERRY_ACAI_REFRESHER_V2"
+            />
+            <p class="product__name">Strawberry Acaí Refresher</p>
+            <div class="product__price">
+              <h4 class="product__price-title">ORDENAR DESDE</h4>
+              <span class="product__price-amount">S/12.00</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/PINK_DRINK_V2.png"
+              alt="PINK_DRINK_V2"
+            />
+            <p class="product__name" id="shakenExpresso">Pink Drink</p>
+            <div class="product__price">
+              <h4 class="product__price-title">ORDENAR DESDE</h4>
+              <span class="product__price-amount">S/14.00</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="products">
+        <h2 class="products__title">SHAKEN ESPRESSO</h2>
+        <div class="products__list">
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/ICED_AVELLANA_OATMILK_SHAKEN_ESPRESSO_ECOMMERCE.png"
+              alt="ICED_AVELLANA_OATMILK_SHAKEN_ESPRESSO_ECOMMERCE"
+            />
+            <p class="product__name">
+              Chocolate Shaken Espresso Frío con bebida de avena
+            </p>
+            <div class="product__price">
+              <h4 class="product__price-title">ORDENAR DESDE</h4>
+              <span class="product__price-amount">S/14.50</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/ICED_CHOCOLATE_OATMILK_SHAKEN_ESPRESSO_ECOMMERCE.png"
+              alt="ICED_CHOCOLATE_OATMILK_SHAKEN_ESPRESSO_ECOMMERCE"
+            />
+            <p class="product__name">
+              Avellana Shaken Espresso Frío con bebida de avena
+            </p>
+            <div class="product__price">
+              <h4 class="product__price-title">ORDENAR DESDE</h4>
+              <span class="product__price-amount">S/14.50</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <h2 class="footer__title">¿Quieres estar al tanto de nuestras promociones y beneficios? ¡Déjanos tu correo!</h2>
+        <div class="footer__email-form">
+          <button class="footer__email-btn">SUSCRIBIRME</button>
+          <input type="email" placeholder="Ingrese su correo electrónico" class="footer__email">
+        </div>
+        <div class="footer__container">
+          <div class="footer__box">
+            <h2>SOBRE NOSOTROS</h2>
+            <a href="#">NUESTRA MISIÓN</a>
+            <a href="#">TIENDAS, HORARIOS Y ZONA DE COBERTURA</a>
+            <a href="#">STARBUCKS STORIES</a>
+          </div>
+          <div class="footer__box">
+            <h2>STARBUCKS REWARDS</h2>
+            <a href="#">STARBUCKS REWARDS</a>
+            <a href="#">PREGUNTAS FRECUENTES</a>
+            <a href="#">TÉRMINOS DE USO</a>
+            <a href="#">POLÍTICA DE PRIVACIDAD</a>
+          </div>
+          <div class="footer__box">
+            <h2>CONTACTO Y ATENCIÓN AL CLIENTE</h2>
+            <a href="#">WHATSAPP (01)505-0505</a>
+            <a href="#">TELÉFONO LIMA: (01)505-0050</a>
+            <a href="#">TELÉFONO PROVINCIA: (044)779-009</a>
+            <a href="#">COMPROBANTES ELECTRÓNICOS</a>
+          </div>
+          <div class="footer__box">
+            <h2>POLÍTICAS Y TÉRMINOS</h2>
+            <a href="#">POLÍTICAS DE PRIVACIDAD</a>
+            <a href="#">POLÍTICAS DE DELIVERY, PICK UP Y AUTOSTARBUCKS</a>
+            <a href="#">TÉRMINOS Y CONDICIONES DE LA WEB</a>
+            <a href="#">TÉRMINOS Y CONDICIONES DE PROMOCIONES</a>
+          </div>
+        </div>
+        <div class="footer__complaints">
+          <a href="#" class="footer__book">
+            <i class="fa-solid fa-book-open footer__bool-icon"></i>
+            <span class="footer__book-text">Libro de Reclamaciones</span>
+          </a>
+        </div>
+        <div class="footer__social">
+          <a href="#"> <i class="fa-brands fa-facebook-square"></i> </a>
+          <a href="#"> <i class="fa-brands fa-instagram"></i> </a>
+          </div>
+        </div>
+      </footer>
+
+      <script src="../js/menu.js"></script>
+      <script src="../js/subMenu.js"></script>
+    </main>
+  </body>
+</html>

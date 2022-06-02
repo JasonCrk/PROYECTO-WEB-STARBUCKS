@@ -9,90 +9,15 @@
 */
 
 /* ESTA ES LA PARTE DE EMERZON */
-
-/* ? NAVBAR */
-.navbar {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  background-color: white;
-  box-shadow: 0 0 10px rgba(126, 126, 126, 0.363);
-  z-index: 100;
-}
-
-.navbar__container {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-}
-
-.navbar__logo {
-  width: 55px;
-  margin-right: 15px;
-}
-
-.navbar__search-container {
-  position: relative;
-}
-
-.navbar__search-icon {
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  color: gray;
-}
-
-.navbar__search {
-  padding: 10px;
-  padding-left: 35px;
-  padding-right: 12px;
-  font-family: "Rubik", sans-serif;
-  width: 300px;
-  outline: none;
-  background-color: #f1f1f1;
-  border: 1px solid rgba(173, 173, 173, 0.459);
-  border-radius: 5px;
-}
-
-.navbar__search::placeholder {
-  color: gray;
-}
-
-.navbar__links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-}
-
-.navbar__links li {
-  list-style: none;
-  margin-left: 15px;
-}
-
-.navbar__link {
-  text-decoration: none;
-  font-size: 18px;
-  color: #000;
-  font-weight: 600;
-  font-family: "Montserrat", sans-serif;
-}
-
-.navbar__link:hover {
-  color: #00754a;
-  border-bottom: 2px solid #00754a;
+html {
+  scroll-behavior: smooth;
 }
 
 /* ? HERO */
-
 .hero {
-  padding-top: 80px;
+  /* padding-top: 5vh; */
   background-color: #d4e9e2;
-  height: 90vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,7 +25,8 @@
 }
 
 .hero__image {
-  width: 700px;
+  margin-top: 60px;
+  width: 620px;
   animation-name: imageAnimation;
   animation-duration: 1.2s;
 }
@@ -149,7 +75,7 @@
 }
 
 .pack--pack2 {
-  background-color: bisque;
+  background-color: #f2f0eb;
 }
 
 .pack2__titulo--pack3 {
@@ -169,6 +95,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
@@ -177,150 +104,12 @@
 }
 
 .pack__contenedor-desayuno-imagen {
-  width: 340px;
+  width: 300px;
 }
 
 .pack__contenedor-desayuno-parrafo {
   margin: 0;
   font-family: "Montserrat", sans-serifa;
   font-size: 28px;
-  font-weight: 900;
-}
-
-/* ESTA ES LA PARTE DE ANTICONA */
-footer {
-  width: 100%;
-  padding: 50px 0px;
-  background-color: #f2f0eb;
-  background-size: cover;
-}
-
-.footer__email-form {
-  display: block;
-  text-align: center;
-}
-
-.footer__email-form h2 {
-  margin-bottom: 20px;
-  font-family: sans-serif;
-  color: #1e3932;
-}
-
-.footer__email {
-  width: 800px;
-  height: 40px;
-  border-radius: 4px;
-  outline: none;
-  border: none;
-  padding-left: 10px;
-  font-size: 15px;
-  padding: 0px 12px;
-  font-family: sans-serif;
-  margin-bottom: 1px;
-}
-
-.footer__email::placeholder {
-  color: #b1b1b1;
-}
-
-.footer__email-btn {
-  width: 100px;
-  height: 40px;
-  border-radius: 4px;
-  background-color: #006241;
-  outline: none;
-  border: none;
-  color: white;
-  font-size: 12px;
-  font-family: sans-serif;
-  font-weight: 600;
-  margin-right: 10px;
-}
-
-.footer__email-btn:hover {
-  cursor: pointer;
-  background-color: #00754a;
-  transition: all 0.4s ease-out;
-}
-
-.footer__container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: auto;
-  margin-top: 5px;
-}
-
-.footer__box {
-  display: flex;
-  flex-direction: column;
-  padding: 40px;
-  text-align: center;
-}
-
-.footer__box h2 {
-  margin-bottom: 5px;
-  color: #1e3932;
-  font-weight: 700;
-  font-family: sans-serif;
-  font-size: 13pt;
-}
-
-.footer__box a {
-  margin-top: 12px;
-  color: #1e3932;
-  font-weight: 600;
-  font-family: sans-serif;
-  font-size: 8pt;
-  text-decoration: none;
-}
-
-.footer__box a:hover {
-  opacity: 0.8;
-}
-
-.footer__complaints {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.footer__complaints a {
-  text-decoration: none;
-  color: #006241;
-  font-family: sans-serif;
-  font-weight: 600;
-}
-
-.footer__complaints i {
-  font-size: 50px;
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__book {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__complaints a:hover {
-  opacity: 0.8;
-}
-
-.footer__social {
-  text-align: center;
-  margin-top: 30px;
-}
-
-.footer__social a {
-  text-decoration: none;
-  color: #006241;
-  font-family: sans-serif;
-  font-weight: 600;
-  font-size: 30px;
-}
-
-.footer__social a:hover {
-  opacity: 0.8;
+  font-weight: 300;
 }

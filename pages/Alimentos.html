@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STARBUCKS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b9630e9243.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/navbarStyles.css" />
+    <link rel="stylesheet" href="../css/basePageProductsStyles.css" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/productStyles.css" />
+    <link rel="stylesheet" href="../css/subnavStyles.css" />
+    <link rel="stylesheet" href="../css/footerStyles.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a class="navbar__container-logo" href="index.html">
+          <img
+            class="navbar__logo"
+            src="../images/Starbucks-logo.png"
+            alt="Starbucks-logo"
+          />
+        </a>
+
+        <div class="navbar__search-container">
+          <input class="navbar__search" type="text" placeholder="Busqueda..." />
+          <i class="fa-solid fa-magnifying-glass navbar__search-icon"></i>
+        </div>
+
+        <i class="fa-solid fa-bars navbar__links-icon" id="menu"></i>
+        <ul class="navbar__links">
+          <li>
+            <a class="navbar__link" href="bebidas.html">Bebidas</a>
+          </li>
+          <li>
+            <a class="navbar__link" href="Alimentos.html">Alimentos</a>
+          </li>
+          <li>
+            <a class="navbar__link" href="PacksyBoxes.html">Packs y Boxes</a>
+          </li>
+          <li>
+            <a class="navbar__link" href="merchycafe.html"
+              >Merch y café en grano</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header id="pastries">
+      <h1 class="header__title">ALIMENTOS</h1>
+    </header>
+
+    <!-- * Botton para que pararesca el subNavbar -->
+    <button class="btnDrop" id="subMenu">
+      <i class="fa-solid fa-caret-down"></i>
+    </button>
+
+    <!-- * SUBNAVBAR -->
+    <nav class="subnav" id="subNav">
+      <ul class="subnav__links">
+        <li>
+          <a class="subnav__link" href="#pastries">Pastries</a>
+        </li>
+        <li>
+          <a class="subnav__link" href="#horneados">Horneados</a>
+        </li>
+        <li>
+          <a class="subnav__link" href="#postres">Postres</a>
+        </li>
+        <li>
+          <a class="subnav__link" href="#sandwiches">Sandwiches</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section class="products">
+        <h2 class="products__title">PASTRIES</h2>
+        <div class="products__list">
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/MUFFIN_DE_NARANJA_Y_CHOCOCHIPS_V2.png"
+            />
+            <p class="product__name">Muffin de Naranja</p>
+            <div class="product__price">
+              <h4 class="product__price-title">Ordenar Desde</h4>
+              <span class="product__price-amount">S/7.00</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/MUFFIN_DE_CHOCOLATE_V2.png"
+            />
+            <p class="product__name">Muffin de Chocolate</p>
+            <div class="product__price">
+              <h4 class="product__price-title">Ordenar Desde</h4>
+              <span class="product__price-amount">S/ 7.00</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/KEKE_DE_ZANAHORIA_V2.png"
+            />
+            <p class="product__name">Keke de Zanahoria</p>
+            <div class="product__price">
+              <h4 class="product__price-title">Ordenar Desde</h4>
+              <span class="product__price-amount">S/ 7.00</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/GALLETA_DE_CRANBERRIES_V2.png"
+            />
+            <p class="product__name" id="horneados">Galleta Cranberry</p>
+            <div class="product__price">
+              <h4 class="product__price-title">Ordenar Desde</h4>
+              <span class="product__price-amount">S/ 4.00</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="products">
+        <h2 class="products__title">HORNEADOS</h2>
+        <div class="products__list">
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/TRENZA_DE_PIZZA_V1.png"
+            />
+            <p class="product__name">Trenza de Pizza</p>
+            <div class="product__price">
+              <h4 class="product__price-title">Ordenar Desde</h4>
+              <span class="product__price-amount">S/ 7.00</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/HOJALDRE_DE_SEMILLAS_JAMON_Y_QUESO_V1.png"
+            />
+            <p class="product__name">Trenza de Semilla Jamón & Queso</p>
+            <div class="product__price">
+              <h4 class="product__price-title">Ordenar Desde</h4>
+              <span class="product__price-amount">S/ 7.00</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/HOJALDRE_DE_JAMON_Y_QUESO_V1.png"
+            />
+            <p class="product__name">Hojaldre Jamón & Queso</p>
+            <div class="product__price">
+              <h4 class="product__price-title">Ordenar Desde</h4>
+              <span class="product__price-amount">S/ 7.00</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="	https://www.starbucks.pe/Multimedia/productos/CROISSANT_DE_CHOCOLATE_V2.png"
+            />
+            <p class="product__name" id="postres">Croissant de Chocolate</p>
+            <div class="product__price">
+              <h4 class="product__price-title">Ordenar Desde</h4>
+              <span class="product__price-amount">S/ 7.00</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="products">
+        <h2 class="products__title">POSTRES</h2>
+        <div class="products__list">
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/Cake_Pop_V1.png"
+            />
+            <p class="product__name">Cake Pop Vainilla</p>
+            <div class="product__price">
+              <h4 class="product__price-title">Ordenar Desde</h4>
+              <span class="product__price-amount">S/ 6.00</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/CHEESECAKE_DE_CHOCOLATE_V2.png"
+            />
+            <p class="product__name">Cheesecake de Chocolate</p>
+            <div class="product__price">
+              <h4 class="product__price-title">Ordenar Desde</h4>
+              <span class="product__price-amount">S/ 12.00</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/CINNAMON_ROLL_V2.png"
+            />
+            <p class="product__name">Cinnamon Roll</p>
+            <div class="product__price">
+              <h4 class="product__price-title">Ordenar Desde</h4>
+              <span class="product__price-amount">S/ 7.00</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/TORTA_DE_CHOCOLATE_V2.png"
+            />
+            <p class="product__name">Torta de Chocolate</p>
+            <div class="product__price" id="sandwiches">
+              <h4 class="product__price-title">Ordenar Desde</h4>
+              <span class="product__price-amount">S/ 10.00</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="products">
+        <h2 class="products__title">SANDWICHES</h2>
+        <div class="products__list">
+          <div class="product">
+            <img
+              class="product__image"
+              src="	https://www.starbucks.pe/Multimedia/productos/SANDWICH_PASTRAMI_V2.png"
+            />
+            <p class="product__name">Sandwich Pastrami</p>
+            <div class="product__price">
+              <h4 class="product__price-title">Ordenar Desde</h4>
+              <span class="product__price-amount">S/ 14.00</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/SANDWICH_CHICKEN_PESTO_PARMESANO_V2.png"
+            />
+            <p class="product__name">Sandwich Chicken Pesto Parmesano</p>
+            <div class="product__price">
+              <h4 class="product__price-title">Ordenar Desde</h4>
+              <span class="product__price-amount">S/ 14.00</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/SANDWICH_DE_PAVITA_Y_QUESO_V2.png"
+            />
+            <p class="product__name">Sandwich Pavita & Queso</p>
+            <div class="product__price">
+              <h4 class="product__price-title">Ordenar Desde</h4>
+              <span class="product__price-amount">S/ 10.00</span>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product__image"
+              src="https://www.starbucks.pe/Multimedia/productos/SANDWICH_EGGMONT_V2.png"
+            />
+            <p class="product__name">Sandwich Eggmont</p>
+            <div class="product__price">
+              <h4 class="product__price-title">Ordenar Desde</h4>
+              <span class="product__price-amount">S/ 9.50</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <h2 class="footer__title">¿Quieres estar al tanto de nuestras promociones y beneficios? ¡Déjanos tu correo!</h2>
+      <div class="footer__email-form">
+        <button class="footer__email-btn">SUSCRIBIRME</button>
+        <input type="email" placeholder="Ingrese su correo electrónico" class="footer__email">
+      </div>
+      <div class="footer__container">
+        <div class="footer__box">
+          <h2>SOBRE NOSOTROS</h2>
+          <a href="#">NUESTRA MISIÓN</a>
+          <a href="#">TIENDAS, HORARIOS Y ZONA DE COBERTURA</a>
+          <a href="#">STARBUCKS STORIES</a>
+        </div>
+        <div class="footer__box">
+          <h2>STARBUCKS REWARDS</h2>
+          <a href="#">STARBUCKS REWARDS</a>
+          <a href="#">PREGUNTAS FRECUENTES</a>
+          <a href="#">TÉRMINOS DE USO</a>
+          <a href="#">POLÍTICA DE PRIVACIDAD</a>
+        </div>
+        <div class="footer__box">
+          <h2>CONTACTO Y ATENCIÓN AL CLIENTE</h2>
+          <a href="#">WHATSAPP (01)505-0505</a>
+          <a href="#">TELÉFONO LIMA: (01)505-0050</a>
+          <a href="#">TELÉFONO PROVINCIA: (044)779-009</a>
+          <a href="#">COMPROBANTES ELECTRÓNICOS</a>
+        </div>
+        <div class="footer__box">
+          <h2>POLÍTICAS Y TÉRMINOS</h2>
+          <a href="#">POLÍTICAS DE PRIVACIDAD</a>
+          <a href="#">POLÍTICAS DE DELIVERY, PICK UP Y AUTOSTARBUCKS</a>
+          <a href="#">TÉRMINOS Y CONDICIONES DE LA WEB</a>
+          <a href="#">TÉRMINOS Y CONDICIONES DE PROMOCIONES</a>
+        </div>
+      </div>
+      <div class="footer__complaints">
+        <a href="#" class="footer__book">
+          <i class="fa-solid fa-book-open footer__bool-icon"></i>
+          <span class="footer__book-text">Libro de Reclamaciones</span>
+        </a>
+      </div>
+      <div class="footer__social">
+        <a href="#"> <i class="fa-brands fa-facebook-square"></i> </a>
+        <a href="#"> <i class="fa-brands fa-instagram"></i> </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/menu.js"></script>
+    <script src="../js/subMenu.js"></script>
+  </body>
+</html>

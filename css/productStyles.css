@@ -1,0 +1,59 @@
+/*
+  ? COLORES:
+  * GREEN-LIGHT: #D4E9E2
+  * GREEN: #00754A
+  * GREEN-DARK: #006241
+  * DARK: #1E3932
+  * GRAY: #F2F0EB
+  * WHITE: #F9F9F9
+*/
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  padding: 18px 0;
+}
+
+.product__image {
+  width: 280px;
+}
+
+.product__name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  width: 250px;
+  font-weight: 300;
+}
+
+.product__price {
+  background-color: #1e3932;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding: 12px 14px;
+  border-radius: 14px;
+}
+
+.product__price-title {
+  margin: 0;
+  font-size: 18px;
+}
+
+.product__price-amount {
+  font-size: 24px;
+  font-weight: 900;
+  margin-top: 5px;
+}
+
+.product:hover .product__name {
+  color: #00754a;
+  transition: color 0.2s;
+}
+
+.product__price:hover {
+  background-color: #00754a;
+  transition: background-color 0.2s;
+}
