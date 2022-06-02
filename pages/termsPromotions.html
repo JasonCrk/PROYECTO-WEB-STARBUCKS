@@ -7,43 +7,55 @@
     <title>STARBUCKS</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2family=Montserrat:wght@500;700&family=Rubik:wght@300&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/b9630e9243.js"
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="../css/indexStyles.css" />
+    <link rel="stylesheet" href="../css/navbarStyles.css" />
     <link rel="stylesheet" href="../css/normalize.css" />
     <link rel="stylesheet" href="../css/animations.css" />
+    <link rel="stylesheet" href="../css/indexResponsive.css" />
+    <link rel="stylesheet" href="../css/footerStyles.css" />
     <link rel="stylesheet" href="../css/termsPromotionStyles.css" />
 </head>
 <body>
     <!-- DEBO AÑADIR NAVBAR PRINCIPAL -->
     <nav class="navbar">
       <div class="navbar__container">
-        <span class="navbar__container-logo">
+        <a class="navbar__container-logo" href="index.html">
           <img
             class="navbar__logo"
             src="../images/Starbucks-logo.png"
             alt="Starbucks-logo"
           />
-        </span>
+        </a>
+
         <div class="navbar__search-container">
           <input class="navbar__search" type="text" placeholder="Busqueda..." />
           <i class="fa-solid fa-magnifying-glass navbar__search-icon"></i>
         </div>
+
+        <i class="fa-solid fa-bars navbar__links-icon" id="menu"></i>
+
         <ul class="navbar__links">
           <li>
-            <a class="navbar__link" href="#">Bebidas</a>
+            <a class="navbar__link" href="bebidas.html">Bebidas</a>
           </li>
           <li>
-            <a class="navbar__link" href="#">Alimentos</a>
+            <a class="navbar__link" href="Alimentos.html">Alimentos</a>
           </li>
           <li>
-            <a class="navbar__link" href="#">Packs y Boxes</a>
+            <a class="navbar__link" href="PacksyBoxes.html">Packs y Boxes</a>
           </li>
           <li>
-            <a class="navbar__link" href="#">Merch y café en grano</a>
+            <a class="navbar__link" href="merchycafe.html"
+              >Merch y café en grano</a
+            >
           </li>
         </ul>
       </div>
@@ -104,56 +116,58 @@
 
     <!-- DEBO AÑADIR FOOTER PRINCIPAL -->
     <footer>
-
+      <h2 class="footer__title">
+        ¿Quieres estar al tanto de nuestras promociones y beneficios? ¡Déjanos
+        tu correo!
+      </h2>
       <div class="footer__email-form">
-        <h2>¿Quieres estar al tanto de nuestras promociones y beneficios? ¡Déjanos tu correo!</h2>
         <button class="footer__email-btn">SUSCRIBIRME</button>
-        <input type="email" placeholder="Ingrese su correo electrónico" class="footer__email">
+        <input
+          type="email"
+          placeholder="Ingrese su correo electrónico"
+          class="footer__email"
+        />
       </div>
 
       <div class="footer__container">
-
         <div class="footer__box">
           <h2>SOBRE NOSOTROS</h2>
-          <a href="..//pages/mission.html">NUESTRA MISIÓN</a>
-          <a href="..//pages/stores.html">TIENDAS, HORARIOS Y ZONA DE COBERTURA</a>
-          <a href="https://historias.starbucks.com/" target="_blank">STARBUCKS STORIES</a>
+          <a href="#">NUESTRA MISIÓN</a>
+          <a href="#">TIENDAS, HORARIOS Y ZONA DE COBERTURA</a>
+          <a href="#">STARBUCKS STORIES</a>
         </div>
-
         <div class="footer__box">
           <h2>STARBUCKS REWARDS</h2>
-          <a href="https://www.starbucksrewards.com.pe/Starbucks" target="_blank">STARBUCKS REWARDS</a>
-          <a href="..//pages/questions.html" >PREGUNTAS FRECUENTES</a>
-          <a href="..//pages/terms.html" >TÉRMINOS DE USO</a>
-          <a href="..//pages/policy.html">POLÍTICA DE PRIVACIDAD</a>
+          <a href="#">STARBUCKS REWARDS</a>
+          <a href="#">PREGUNTAS FRECUENTES</a>
+          <a href="#">TÉRMINOS DE USO</a>
+          <a href="#">POLÍTICA DE PRIVACIDAD</a>
         </div>
-
         <div class="footer__box">
           <h2>CONTACTO Y ATENCIÓN AL CLIENTE</h2>
-          <a href="https://api.whatsapp.com/send/?phone=51015050505&text&app_absent=0" target="_blank">WHATSAPP (01)505-0505</a>
-          <a href="tel:015050050" target="_blank">TELÉFONO LIMA: (01)505-0050</a>
-          <a href="tel:779009" target="_blank">TELÉFONO PROVINCIA: (044)779-009</a>
-          <a href="https://asp402r.paperless.com.pe/DTEStarbucks/" target="_blank">COMPROBANTES ELECTRÓNICOS</a>
+          <a href="#">WHATSAPP (01)505-0505</a>
+          <a href="#">TELÉFONO LIMA: (01)505-0050</a>
+          <a href="#">TELÉFONO PROVINCIA: (044)779-009</a>
+          <a href="#">COMPROBANTES ELECTRÓNICOS</a>
         </div>
-
         <div class="footer__box">
           <h2>POLÍTICAS Y TÉRMINOS</h2>
-          <a href="..//pages/privacyPolicies.html">POLÍTICAS DE PRIVACIDAD</a>
-          <a href="..//pages/deliveryPolicies.html">POLÍTICAS DE DELIVERY, PICK UP Y AUTOSTARBUCKS</a>
-          <a href="..//pages/termsWeb.html">TÉRMINOS Y CONDICIONES DE LA WEB</a>
-          <a href="..//pages/termsPromotions.html">TÉRMINOS Y CONDICIONES DE PROMOCIONES</a>
+          <a href="#">POLÍTICAS DE PRIVACIDAD</a>
+          <a href="#">POLÍTICAS DE DELIVERY, PICK UP Y AUTOSTARBUCKS</a>
+          <a href="#">TÉRMINOS Y CONDICIONES DE LA WEB</a>
+          <a href="#">TÉRMINOS Y CONDICIONES DE PROMOCIONES</a>
         </div>
       </div>
-
       <div class="footer__complaints">
-        <a href="https://librodereclamaciones.franquiciasperu.com/Reclamo/RegistrarReclamo?idmarca=121" class="footer__book" target="_blank"> <i class="fa-solid fa-book-open footer__icon"></i> Libro de Reclamaciones</a>
+        <a href="#" class="footer__book">
+          <i class="fa-solid fa-book-open footer__bool-icon"></i>
+          <span class="footer__book-text">Libro de Reclamaciones</span>
+        </a>
       </div>
-
       <div class="footer__social">
-        <a href="https://www.facebook.com/starbucksperu" target="_blank"> <i class="fa-brands fa-facebook-square"></i> </a>
-        <a href="https://www.instagram.com/starbuckspe/" target="_blank"> <i class="fa-brands fa-instagram"></i> </a>
+        <a href="#"> <i class="fa-brands fa-facebook-square"></i> </a>
+        <a href="#"> <i class="fa-brands fa-instagram"></i> </a>
       </div>
-
     </footer>
 
 </body>
