@@ -1,0 +1,37 @@
+section {
+    width: 70%;
+    margin: auto;
+    padding: 100px 0 50px 0;
+}
+
+section h2 {
+    font-size: 24pt;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    color: #212529;
+    margin: 50px 20px;
+}
+
+section p {
+    font-family: "Monteserrat", sans-serif;
+    font-size: 12pt;
+    font-weight: 550;
+    text-align: justify;
+    color: gray;
+}
+
+.list_tittle {
+    font-family: "Monteserrat", sans-serif;
+    font-size: 13pt;
+    color: #212529;
+}
+
+section li {
+    font-family: "Monteserrat", sans-serif;
+    font-size: 12pt;
+    font-weight: 550;
+    text-align: justify;
+    color: gray;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}

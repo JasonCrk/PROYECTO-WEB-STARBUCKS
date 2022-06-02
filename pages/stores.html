@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STARBUCKS</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,9 +21,10 @@
     <link rel="stylesheet" href="../css/animations.css" />
     <link rel="stylesheet" href="../css/indexResponsive.css" />
     <link rel="stylesheet" href="../css/footerStyles.css" />
-  </head>
-  <body>
-    <!-- ESTA ES LA PARTE DE EMERZON -->
+    <link rel="stylesheet" href="../css/storeStyles.css"/>
+</head>
+<body>
+    <!-- DEBO AÑADIR NAVBAR PRINCIPAL -->
     <nav class="navbar">
       <div class="navbar__container">
         <a class="navbar__container-logo" href="index.html">
@@ -60,78 +61,19 @@
       </div>
     </nav>
 
-    <section class="hero">
-      <img class="hero__image" src="../images/image2.png" alt="hero image" />
-      <h2 class="hero__title hero__title--1">BIENVENIDOS</h2>
-      <h2 class="hero__title hero__title--2">A</h2>
-      <h2 class="hero__title hero__title--3">STARBUCKMANIA</h2>
+    <!-- AÑADIR SECCIÓN TIENDAS -->
+    <section class="store">
+        <h2>TIENDAS, HORARIOS Y ZONA DE COBERTURA</h2>
+        <div class="store-main">
+            <p>Desplázate y haz zoom en el mapa para encontrar tu tienda y ver las zonas de cobertura de delivery.</p>
+            <p>Para ver el detalle de horarios, dirección y servicios que ofrecemos darle click en:</p>
+            <i class="fa-solid fa-location-dot"></i>
+        </div>
+        <iframe src="https://www.google.com/maps/d/embed?mid=1Y6avB8zTy_SVqPbCTZNN9qqO1Br_Bctj&hl=es-419&ehbc=2E312F" width="640" height="480"></iframe>
     </section>
 
-    <!-- ESTA ES LA PARTE DE GLADYS -->
+    <!-- DEBO AÑADIR FOOTER PRINCIPAL -->
 
-    <section class="pack1">
-      <img src="..//images/home_V1.png" class="pack1__imagen" />
-    </section>
-
-    <section class="pack pack--pack2">
-      <h2 class="pack__titulo">PACKS Y BOXES</h2>
-      <div class="pack__contenedor">
-        <div class="pack__contenedor-desayuno">
-          <img
-            class="pack__contenedor-desayuno-imagen"
-            src="..//images/DESAYUNO_PARA_DOS_V4.png"
-          />
-          <p class="pack__contenedor-desayuno-parrafo">Desayunos</p>
-        </div>
-
-        <div class="pack__contenedor-desayuno">
-          <img
-            class="pack__contenedor-desayuno-imagen"
-            src="..//images/PACK_ANTOJOS_V2.png"
-          />
-          <p class="pack__contenedor-desayuno-parrafo">Antojos de la tarde</p>
-        </div>
-
-        <div class="pack__contenedor-desayuno">
-          <img
-            class="pack__contenedor-desayuno-imagen"
-            src="..//images/SWEET_BOX_V3.png"
-          />
-          <p class="pack__contenedor-desayuno-parrafo">Boxes</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="pack">
-      <h2 class="pack__titulo">TUS FAVORITOS</h2>
-      <div class="pack__contenedor">
-        <div class="pack__contenedor-desayuno">
-          <img
-            class="pack__contenedor-desayuno-imagen"
-            src="../images/DUO_DESAYUNO_V4.png"
-          />
-          <p class="pack__contenedor-desayuno-parrafo">Duo Desayunos</p>
-        </div>
-
-        <div class="pack__contenedor-desayuno">
-          <img
-            class="pack__contenedor-desayuno-imagen"
-            src="../images/DESAYUNO_PARA_DOS_V4.png"
-          />
-          <p class="pack__contenedor-desayuno-parrafo">Desayuno Para Dos</p>
-        </div>
-
-        <div class="pack__contenedor-desayuno">
-          <img
-            class="pack__contenedor-desayuno-imagen"
-            src="../images/PACK_ANTOJOS_V3.png"
-          />
-          <p class="pack__contenedor-desayuno-parrafo">Pack Antojos</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- ESTA ES LA PARTE DE ANTICONA -->
     <footer>
       <h2 class="footer__title">
         ¿Quieres estar al tanto de nuestras promociones y beneficios? ¡Déjanos
@@ -186,7 +128,5 @@
         <a href="#"> <i class="fa-brands fa-instagram"></i> </a>
       </div>
     </footer>
-
-    <script src="../js/menu.js"></script>
-  </body>
+</body>
 </html>

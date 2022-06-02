@@ -1,0 +1,26 @@
+.store {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+}
+
+.store h2 {
+    font-size: 24pt;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    color: #212529;
+    margin: 50px 20px;
+}
+
+.store p {
+    font-family: "Monteserrat", sans-serif;
+    line-height: 10px;
+    font-size: 12pt;
+    text-align: center;
+}
+
+.store iframe {
+    margin-top: 20px;
+    width: 80%;
+}
