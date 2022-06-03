@@ -1,38 +1,53 @@
 section {
-    width: 70%;
-    margin: auto;
-    padding: 100px 0 50px 0;
+  width: 70%;
+  margin: auto;
+  padding: 100px 0 50px 0;
 }
 
-section h2 {
-    font-size: 24pt;
-    text-align: center;
-    font-family: "Rubik", sans-serif;
-    color: #212529;
-    margin: 50px 20px;
+section h1 {
+  font-size: 24pt;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #212529;
+  margin: 50px 20px;
 }
 
 section h3 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 15pt;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15pt;
 }
 
 section h4 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 12pt;
-    color: #00754A;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12pt;
+  color: #00754a;
 }
 
 section p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 12pt;
-    font-weight: 550;
-    text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12pt;
+  font-weight: 550;
+  text-align: justify;
+}
+
+section ol {
+  padding-left: 18px;
 }
 
 section li {
-    font-family: "Montserrat", sans-serif;
-    font-size: 12pt;
-    font-weight: 550;
-    text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12pt;
+  font-weight: 550;
+  text-align: justify;
+}
+
+@media screen and (max-width: 500px) {
+  section {
+    width: 90%;
+    padding: 10vh 0 30px 0;
+  }
+
+  section h1 {
+    margin: 30px 0;
+  }
 }
