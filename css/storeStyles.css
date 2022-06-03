@@ -1,26 +1,48 @@
 .store {
-    width: 90%;
-    margin: auto;
-    text-align: center;
-    padding: 100px;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding: 100px 50px;
 }
 
-.store h2 {
-    font-size: 24pt;
-    text-align: center;
-    font-family: "Rubik", sans-serif;
-    color: #212529;
-    margin: 50px 20px;
+.store h1 {
+  font-size: 24pt;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #212529;
+  margin: 50px 20px;
 }
 
 .store p {
-    font-family: "Montserrat", sans-serif;
-    line-height: 10px;
-    font-size: 12pt;
-    text-align: center;
+  font-family: "montserrat", sans-serif;
+  line-height: 10px;
+  font-size: 12pt;
+  text-align: center;
 }
 
 .store iframe {
+  margin-top: 20px;
+  width: 80%;
+}
+
+@media screen and (max-width: 500px) {
+  .store {
+    width: 90%;
+    text-align: center;
+    padding: 10vh 0;
+  }
+
+  .store h1 {
+    font-size: 18pt;
+    margin: 30px 10px;
+  }
+  .store iframe {
     margin-top: 20px;
-    width: 80%;
+    width: 100%;
+  }
+
+  .store p {
+    line-height: 20px;
+    text-align: center;
+  }
 }
