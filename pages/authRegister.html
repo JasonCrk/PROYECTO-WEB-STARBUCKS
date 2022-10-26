@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STARBUCKS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b9630e9243.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/authStyles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <h1 class="card__title">Registrarse</h1>
+        <form>
+          <div class="card__form-control">
+            <label for="firstName" class="card__form-control--label"
+              >Nombre:</label
+            >
+            <input
+              class="card__form-control--input"
+              id="firstName"
+              name="firstName"
+              placeholder="Ingrese su nombre(s)"
+            />
+          </div>
+          <div class="card__form-control">
+            <label for="lastName" class="card__form-control--label"
+              >Apellido:</label
+            >
+            <input
+              class="card__form-control--input"
+              id="lastName"
+              name="lastName"
+              placeholder="Ingrese su apellido"
+            />
+          </div>
+          <div class="card__form-control">
+            <label for="username" class="card__form-control--label"
+              >Nombre de usuario:</label
+            >
+            <input
+              class="card__form-control--input"
+              id="username"
+              name="username"
+              placeholder="Ingrese su nombre de usuario"
+            />
+          </div>
+          <div class="card__form-control">
+            <label for="email" class="card__form-control--label"
+              >Correo electrónico:</label
+            >
+            <input
+              class="card__form-control--input"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Ingrese su E-mail"
+            />
+          </div>
+          <div class="card__form-control">
+            <label for="password1" class="card__form-control--label"
+              >Contraseña:</label
+            >
+            <input
+              class="card__form-control--input"
+              type="password"
+              id="password1"
+              name="password1"
+              placeholder="Ingrese su contraseña"
+            />
+          </div>
+          <div class="card__form-control">
+            <label for="email" class="card__form-control--label"
+              >Confirmar contraseña:</label
+            >
+            <input
+              class="card__form-control--input"
+              type="password"
+              id="password2"
+              name="password2"
+              placeholder="Ingrese de nuevo su contraseña"
+            />
+          </div>
+          <div class="card__form-control">
+            <button class="card__form-control--submit" type="submit">
+              Registrarse
+            </button>
+          </div>
+        </form>
+        <div class="links">
+          <a class="links__link" href="./index.html"
+            >Volver a la pagina principal</a
+          >
+          <a class="links__link" href="./authLogin.html">Inicial sesión</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
