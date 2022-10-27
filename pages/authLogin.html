@@ -22,7 +22,7 @@
     <main>
       <div class="card">
         <h1 class="card__title">Iniciar Sesión</h1>
-        <form>
+        <form id="form-login">
           <div class="card__form-control">
             <label for="email" class="card__form-control--label"
               >Correo electrónico:</label
@@ -34,6 +34,7 @@
               name="email"
               placeholder="Ingrese su E-mail"
             />
+            <div class="card__form-control--error" id="error-email"></div>
           </div>
           <div class="card__form-control">
             <label for="password" class="card__form-control--label"
@@ -46,9 +47,14 @@
               name="password"
               placeholder="Ingrese su contraseña"
             />
+            <div class="card__form-control--error" id="error-password"></div>
           </div>
           <div class="card__form-control">
-            <button class="card__form-control--submit" type="submit">
+            <button
+              class="card__form-control--submit"
+              type="submit"
+              id="btnSubmit"
+            >
               Iniciar sesión
             </button>
           </div>
@@ -61,5 +67,7 @@
         </div>
       </div>
     </main>
+
+    <script src="../js/login.js" type="module"></script>
   </body>
 </html>
