@@ -67,6 +67,12 @@ main {
   color: white;
 }
 
+.card__form-control--error {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  color: red;
+}
+
 .links {
   display: flex;
   justify-content: space-between;
