@@ -20,11 +20,17 @@ const onSubmitRegister = (e) => {
   const isValidPassword = validatePassword(data.password)
   const isValidConfirmPassword = validateConfirmPassword(data.confirmPassword, data.password)
 
-  const isValidData = isValidFirstName && isValidLastName && isValidUsername && isValidEmail && isValidPassword && isValidConfirmPassword
+  const isValidData =
+    isValidFirstName &&
+    isValidLastName &&
+    isValidUsername &&
+    isValidEmail &&
+    isValidPassword &&
+    isValidConfirmPassword
 
   if (isValidData) {
     window.localStorage.setItem('isAuth', true)
-    window.location.href = 'index.html'
+    window.location.replace('index.html')
   }
 }
 
