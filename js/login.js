@@ -11,7 +11,7 @@ const onSubmitLogin = (e) => {
 
   if (isValidEmail && isValidPassword) {
     window.localStorage.setItem('isAuth', true)
-    window.location.href = 'index.html'
+    window.location.replace('index.html')
   }
 }
 
