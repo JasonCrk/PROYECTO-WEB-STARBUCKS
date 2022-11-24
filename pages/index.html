@@ -26,6 +26,10 @@
     <link rel="stylesheet" href="../css/animations.css" />
     <link rel="stylesheet" href="../css/indexResponsive.css" />
     <link rel="stylesheet" href="../css/footerStyles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <nav class="navbar">
@@ -73,10 +77,35 @@
       <h2 class="hero__title hero__title--3">STARBUCKMANIA</h2>
     </section>
 
-    <!-- ESTA ES LA PARTE DE GLADYS -->
-
-    <section class="pack1">
-      <img src="..//images/home_V1.png" class="pack1__imagen" />
+    <section>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="..//images/home_V1.png" class="pack1__imagen" />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="https://www.starbucks.pe/Multimedia/slider/Banner_Mocha_Bebida_Almendra_v3.png"
+              class="pack1__imagen"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="https://www.starbucks.pe/Multimedia/slider/Banner_Holiday_Cinnamon_Avellana_v3.png"
+              class="pack1__imagen"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="https://www.starbucks.pe/Multimedia/slider/Banner_Magia_de_temporada_v3.png"
+              class="pack1__imagen"
+            />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
     </section>
 
     <section class="pack pack--pack2">
@@ -137,7 +166,6 @@
       </div>
     </section>
 
-    <!-- ESTA ES LA PARTE DE ANTICONA -->
     <footer>
       <h2 class="footer__title">
         ¿Quieres estar al tanto de nuestras promociones y beneficios? ¡Déjanos
@@ -223,8 +251,28 @@
         </a>
       </div>
     </footer>
+
     <script src="../js/menu.js"></script>
-    <script src="../js/carrusel.js"></script>
+    <script src="../js/carruselPackyBoxes.js"></script>
     <script src="../js/sendEmail.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module">
+      import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+
+      const swiper = new Swiper('.swiper', {
+        direction: 'horizontal',
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        autoplay: {
+          delay: 3000,
+        },
+      })
+    </script>
   </body>
 </html>
