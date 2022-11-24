@@ -11,7 +11,7 @@ footer {
 .footer__title {
   text-align: center;
   margin-bottom: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   color: #1e3932;
 }
@@ -32,12 +32,19 @@ footer {
   padding-left: 10px;
   font-size: 15px;
   padding: 0px 12px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   margin-bottom: 1px;
 }
 
 .footer__email::placeholder {
   color: #b1b1b1;
+}
+
+.footer__email-message {
+  display: block;
+  font-size: 1.1rem;
+  font-family: 'Rubik', sans-serif;
+  color: red;
 }
 
 .footer__email-btn {
@@ -48,7 +55,7 @@ footer {
   padding: 11px 13px;
   color: white;
   font-size: 15px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 900;
   margin-right: 10px;
 }
@@ -76,7 +83,7 @@ footer {
   margin-bottom: 5px;
   color: #1e3932;
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 13pt;
 }
 
@@ -84,7 +91,7 @@ footer {
   margin-top: 12px;
   color: #1e3932;
   font-weight: 600;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 1rem;
   text-decoration: none;
 }
@@ -101,7 +108,7 @@ footer {
 .footer__complaints a {
   text-decoration: none;
   color: #006241;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 600;
 }
 
