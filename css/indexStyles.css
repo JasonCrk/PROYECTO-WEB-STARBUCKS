@@ -32,7 +32,7 @@ html {
 }
 
 .hero__title {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 100px;
   font-weight: 900;
   color: white;
@@ -58,13 +58,9 @@ html {
 
 /* ESTA ES LA PARTE DE GLADYS */
 
-.pack1 {
-  display: flex;
-  justify-content: center;
-}
-
 .pack1__imagen {
   margin: 30px 0;
+  width: 100%;
 }
 
 .pack {
@@ -84,7 +80,7 @@ html {
 
 .pack__titulo {
   font-size: 50px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   margin-bottom: 10px;
   text-align: center;
@@ -109,7 +105,7 @@ html {
 
 .pack__contenedor-desayuno-parrafo {
   margin: 0;
-  font-family: "Montserrat", sans-serifa;
+  font-family: 'Montserrat', sans-serifa;
   font-size: 28px;
   font-weight: 300;
 }
